@@ -5,7 +5,7 @@ can essentially be copy-pasted from the docs and inserted directly into the prog
 # Utility API
 This [framework](https://getbootstrap.com/docs/5.0/utilities/api/) was developed for recent versions of Bootstrap, and seeks to bridge the gap between frameworks that obfuscate away much of the actual CSS (Bootstrap) and utility-first frameworks that require significant tinkering on the programmer's part (Tailwind). At its core, Bootstrap uses Sass to build and control its internal CSS frameworks. What the utility API does is allow the programmer greater access into the internal workings of Bootstrap and its Sass compilation. 
 
-For example, in the following code, the utility API is used to change the `opacity` class prefix is changed to `o`
+For example, in the following code, the utility API is used to change the `opacity` class prefix to `o`
 
 ```
 $utilities: (
@@ -33,7 +33,7 @@ And the result:
 ```
 
 # Modular and Prebuilt Object Design
-Bootstrap was created to be easy to get running, easy to maintain, and easy to theme. Given that all Bootstrap elements (such as buttons, dropdowns, and tables) are already pre-themed in the imported Bootstrap assets, a programmer doesn't have to spend time making sure each element of a website interacts correctly with and looks like the other parts. This approach has upsides and downsides, but for programmers seeking ease of maintenance and setup, Bootstrap is a solid choice.
+Bootstrap was created to be easy to get running, easy to maintain, and easy to theme. Given that all Bootstrap elements (such as buttons, dropdowns, and tables) are already pre-themed by the imported Bootstrap assets, a programmer doesn't have to spend time making sure each element of a website interacts correctly with and looks like the other parts. This approach has upsides and downsides, but for programmers seeking ease of maintenance and setup, Bootstrap is a solid choice.
 
 There is also a focus on code modularity, as shown [here](https://getbootstrap.com/docs/5.2/components/carousel/#with-controls) and [here](https://getbootstrap.com/docs/5.2/components/carousel/#with-controls), adding in an carousel's indicator that shows which slide it's on is as easy as copy-pasting the following code into the main carousel container:
 
